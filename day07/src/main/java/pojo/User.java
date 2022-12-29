@@ -3,6 +3,7 @@ package pojo;
 import java.io.Serializable;
 
 public class User implements Serializable {
+    private String passowrd;
     private String name;
     private String email;
 
